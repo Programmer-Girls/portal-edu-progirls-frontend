@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    Nome do Projeto
+    Portal educacional da ProGirls
   </h1>
   <!--
 <p>
