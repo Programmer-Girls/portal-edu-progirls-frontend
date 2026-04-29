@@ -60,6 +60,7 @@ Este projeto foi desenvolvido para **agrupar cursos, materiais e eventos relevan
 
 ## Estrutura
 
+```bash
 docs/                          # documentação do projeto
 portal-edu-progirls-vite/      # aplicação React principal - A pasta raiz da aplicação frontend construída com React + TypeScript + Vite. Contém configurações do projeto, index.html e todas as dependências.
 src/
@@ -69,7 +70,7 @@ src/
  ├── pages/                    # páginas da aplicação -componentes de página que representam rotas completas (Home), que levam para diferentes partes da UI
  ├── routes/                   # configuração de rotas para definir a estrutura de navegação e roteamento da aplicação
  └── styles/                   # estilos globais 
-
+```
 ---
 
 ## Funcionalidades
