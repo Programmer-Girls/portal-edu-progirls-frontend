@@ -102,31 +102,36 @@ Evite:
 
 ---
 [PARA ATUALIZAR]
+<!-- 
 ## Como executar
 
 * Deve permitir que qualquer pessoa rode o projeto
 * Teste o passo a passo antes de subir
 
 Inclua:
-
+-->
 * Clone
+  ```bash
+  git clone repository https://github.com/ferreiramrs/portal-edu-progirls-frontend/
+  ```
 * Instalação
   ```bash
   # 1 - Instalar vite/reactjs na sua IDE
   yarn create app
-  ```
-  
+  ```  
 * Execução
+  <!-- Execução feita no Google Chrome, localhost porta http://localhost:8080 -->
 
-✔ Se usar:
+<!-- ✔ Se usar:
 
 * `yarn` ou `npm`, atualizar comandos
 * Docker, adicionar instruções extras
-
+-->
 ---
 
 ## Variáveis de ambiente
 
+<!-- AINDA NÃO HOUVE NENHUMA VARIÁVEL DE AMBIENTE A SE CONSIDERAR
 * Liste todas as variáveis necessárias
 * Use nomes claros e padronizados
 
@@ -142,22 +147,23 @@ Evite:
 
 * Variáveis sem explicação
 * Variáveis desnecessárias
-
+-->
 ---
 
 ## Testes
 
+<!-- AINDA NÃO HOUVE REALIZAÇÃO DE TESTE EM PRODUÇÃO
 * Incluir apenas se o projeto possuir testes
 * Garantir que o comando funciona
 
 ✔ Exemplo:
 
 * `npm run test`
-
+-->
 ---
 
 ## Integração com Backend
-
+<!-- A FAZER
 * Informar o repositório da API
 * Explicar como a comunicação acontece
 
@@ -168,11 +174,12 @@ Descrever:
 * Como as requisições são feitas
 
 ✔ Objetivo: mostrar visão de integração frontend + backend
-
+-->
 ---
 
 ## Padrões e Arquitetura
 
+<!-- A FAZER
 * Descrever decisões técnicas importantes
 
 ✔ Exemplos:
@@ -185,7 +192,7 @@ Evite:
 
 * Explicações muito detalhadas ou técnicas demais
 * Listar coisas óbvias
-
+--->
 ---
 
 ## Licença
