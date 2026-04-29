@@ -42,45 +42,35 @@ Salve a imagem na pasta /docs
 
 ---
 
-Este projeto foi desenvolvido para **[resolver problema X]**, permitindo **[resultado principal]**.
+Este projeto foi desenvolvido para **agrupar cursos, materiais e eventos relevantes para a área de tecnologia**, permitindo **acesso facilitado e organizado** a todas as estudantes e membros da comunidade da ProGirls.
 
 ---
 
 ## Tecnologias
 
-* Liste apenas tecnologias realmente utilizadas
-* Seja específico quando possível
-
-✔ Exemplo:
-
 * React
 * Vite
 * Tailwind CSS
+* Typescript
+* JavaScript
+* HTML
+* CSS
 
 ---
 
 ## Estrutura
 
-Ajuste conforme a estrutura real do projeto. Remova pastas que não existem. Adicione novas se necessário
-
-Para cada pasta:
-
-* Descreva **responsabilidade**, não implementação
-
-✔ Exemplo:
-
-* `components/` → componentes reutilizáveis
-* `services/` → integração com API
-
-ou
-
 ```bash
+docs/                          # documentação do projeto
+portal-progirls/               # aplicação React principal - A pasta raiz da aplicação frontend construída com React + TypeScript + Vite. Contém configurações do projeto, index.html e todas as dependências.
 src/
- ├── assets/        # arquivos estáticos (imagens, ícones)
- ├── components/    # componentes reutilizáveis
- └── styles/        # estilos globais
+ ├── public/                   # arquivos estáticos públicos - Imagens, ícones, fontes e outros arquivos que não são processados pelo bundler. Servidos como estão na aplicação.
+ ├── assets/                   # arquivos estáticos (imagens, ícones) - Ativos da aplicação. Imagens, ícones, SVGs e outros recursos usados nos componentes. Importados diretamente no código.
+ ├── components/               # componentes reutilizáveis
+ ├── pages/                    # páginas da aplicação -componentes de página que representam rotas completas (Home), que levam para diferentes partes da UI
+ ├── routes/                   # configuração de rotas para definir a estrutura de navegação e roteamento da aplicação
+ └── styles/                   # estilos globais 
 ```
-
 ---
 
 ## Funcionalidades
@@ -90,37 +80,58 @@ src/
 
 ✔ Exemplo:
 
-* Login de usuário
-* Cadastro de dados
-* Visualização de dashboard
+* Listar com filtro (data, categoria, tipo, tema, etc)
+- Conteúdo organizado por ordem de postagem
+- Add tags para facilitar a navegação (tipo de conteúdo - documento, vídeo, live, etc.)
+- Barra de Pesquisa
+- Tags de Áreas (front, back, Cyber, dados, etc.)
+- Abas separadas para: Roadmaps, Conteúdos e Eventos
+- Filtro de busca
+- Referências externas (cadastro, teste, etc)
+  
+* Temas: conteúdo dentro das áreas
+* Página Home
+* Página de categoria (categoria -> roadmap, workshop, eventos, etc)
+* Página Sobre
 
+``
 Evite:
-
 * "uso de React hooks"
 * "consumo de API"
+``
 
 ---
-
+[PARA ATUALIZAR]
+<!-- 
 ## Como executar
 
 * Deve permitir que qualquer pessoa rode o projeto
 * Teste o passo a passo antes de subir
 
 Inclua:
-
+-->
 * Clone
+  ```bash
+  git clone repository https://github.com/ferreiramrs/portal-edu-progirls-frontend/
+  ```
 * Instalação
+  ```bash
+  # 1 - Instalar vite/reactjs na sua IDE
+  yarn create app
+  ```  
 * Execução
+  <!-- Execução feita no Google Chrome, localhost porta http://localhost:8080 -->
 
-✔ Se usar:
+<!-- ✔ Se usar:
 
 * `yarn` ou `npm`, atualizar comandos
 * Docker, adicionar instruções extras
-
+-->
 ---
 
 ## Variáveis de ambiente
 
+<!-- AINDA NÃO HOUVE NENHUMA VARIÁVEL DE AMBIENTE A SE CONSIDERAR
 * Liste todas as variáveis necessárias
 * Use nomes claros e padronizados
 
@@ -136,22 +147,23 @@ Evite:
 
 * Variáveis sem explicação
 * Variáveis desnecessárias
-
+-->
 ---
 
 ## Testes
 
+<!-- AINDA NÃO HOUVE REALIZAÇÃO DE TESTE EM PRODUÇÃO
 * Incluir apenas se o projeto possuir testes
 * Garantir que o comando funciona
 
 ✔ Exemplo:
 
 * `npm run test`
-
+-->
 ---
 
 ## Integração com Backend
-
+<!-- A FAZER
 * Informar o repositório da API
 * Explicar como a comunicação acontece
 
@@ -162,11 +174,12 @@ Descrever:
 * Como as requisições são feitas
 
 ✔ Objetivo: mostrar visão de integração frontend + backend
-
+-->
 ---
 
 ## Padrões e Arquitetura
 
+<!-- A FAZER
 * Descrever decisões técnicas importantes
 
 ✔ Exemplos:
@@ -179,7 +192,7 @@ Evite:
 
 * Explicações muito detalhadas ou técnicas demais
 * Listar coisas óbvias
-
+--->
 ---
 
 ## Licença
