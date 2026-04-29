@@ -111,6 +111,11 @@ Inclua:
 
 * Clone
 * Instalação
+  ```bash
+  # 1 - Instalar vite/reactjs na sua IDE
+  yarn create app
+  ```
+  
 * Execução
 
 ✔ Se usar:
